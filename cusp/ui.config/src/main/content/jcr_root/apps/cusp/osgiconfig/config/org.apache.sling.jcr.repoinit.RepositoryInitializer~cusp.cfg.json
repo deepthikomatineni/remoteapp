@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/cusp",
+        "create path (nt:unstructured) /content/dam/cusp/jcr:content",
+        "set properties on /content/dam/cusp/jcr:content",
+        "set cq:conf{String} to /conf/cusp",
+        "set jcr:title{String} to \"CUSP\"",
+        "end"
+    ]
+}
